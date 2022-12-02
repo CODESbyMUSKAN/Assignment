@@ -1,0 +1,61 @@
+img{
+    height: 50px;
+    width: 120px;
+    border: solid 2px black;
+    margin-bottom: 19px;
+}
+#head{
+    background-color: tomato;
+    background-size: contain;
+    padding: 10px;
+}
+.header{
+    margin: 5px;
+    padding: 10px;
+}
+#Home{
+    animation: fall 1s;
+    margin-bottom: 10px;
+}
+#Feedback{
+    animation: fall 2s;
+    margin-bottom: 10px;
+
+}
+#Contact{
+    animation: fall 2.5s;
+    margin-bottom: 10px;
+}
+
+#Home:hover{
+    background-color: blue;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 20px;
+}
+#Feedback:hover{
+    background-color: blue;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 20px;
+}
+#Contact:hover{
+    background-color: blue;
+    background-size: cover;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+@keyframes fall {
+    0%{
+        margin-left: -1000px;
+    }
+    
+    50%{
+        margin-left: 100px;
+    }
+
+    100%{
+        margin-left: 0px;
+    }
+}
